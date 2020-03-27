@@ -7,7 +7,7 @@ public class Hero extends Character {
 
     public Hero(String name, int hp, String race, String heroClass) {
         super(name, hp, race);
-        this.heroClass = HeroClass.FIGHTER.value();
+        this.heroClass = HeroClass.MAGE.value();
         this.weapon = Weapon.NOTHING.value();
         this.mana = 10;
     }
